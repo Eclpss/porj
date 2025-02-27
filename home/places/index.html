@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Touhou</div>
+        <!-- ul.menu>li*3 -->
+        <ul class="menu">
+            <li>Home</li>
+            <li>Character</li>
+            <li>Places</li>
+        </ul>
+
+        <div class="search">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 3v4a1 1 0 0 1-1 1H5m8 7.5 2.5 2.5M19 4v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Zm-5 9.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"/>
+              </svg>
+        </div>
+    </header> 
+    
+    <div class="slider">
+    <!-- slider -->
+        <div class="list">
+            <!-- we want the only active class is  put in the , thats what active does -->
+         <div class="item active">
+            <img src="image/192824.png" alt="">
+            <div class="content">
+                <p>Design</p>
+                <h2>slider 01</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos, magni dolorum in, dolore, ipsum repellat nobis obcaecati molestias labore voluptatem ab tempore eum eligendi doloremque cupiditate debitis maxime quos.
+                     Rerum, numquam suscipit ducimus repellendus tenetur, explicabo exercitationem quae voluptate enim consequatur deserunt sunt ea! Porro molestiae aliquid ut ex alias sit.
+                </p>
+            </div>
+         </div>
+         <div class="item">
+            <img src="image/heven.jpg" alt="">
+            <div class="content">
+                <p>Design</p>
+                <h2>slider 02</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos, magni dolorum in, dolore, ipsum repellat nobis obcaecati molestias labore voluptatem ab tempore eum eligendi doloremque cupiditate debitis maxime quos.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, numquam suscipit ducimus repellendus tenetur, explicabo exercitationem quae voluptate enim consequatur deserunt sunt ea! Porro molestiae aliquid ut ex alias sit.
+                </p>
+            </div>
+         </div>
+         <div class="item">
+            <img src="image/mansion.png" alt="">
+            <div class="content">
+                <p>Design</p>
+                <h2>slider 03</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos, magni dolorum in, dolore, ipsum repellat nobis obcaecati molestias labore voluptatem ab tempore eum eligendi doloremque cupiditate debitis maxime quos.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, numquam suscipit ducimus repellendus tenetur, explicabo exercitationem quae voluptate enim consequatur deserunt sunt ea! Porro molestiae aliquid ut ex alias sit.
+                </p>
+            </div>
+         </div>
+         <div class="item">
+            <img src="image/sunflower.png" alt="">
+            <div class="content">
+                <p>Design</p>
+                <h2>slider 04</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos, magni dolorum in, dolore, ipsum repellat nobis obcaecati molestias labore voluptatem ab tempore eum eligendi doloremque cupiditate debitis maxime quos.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, numquam suscipit ducimus repellendus tenetur, explicabo exercitationem quae voluptate enim consequatur deserunt sunt ea! Porro molestiae aliquid ut ex alias sit.
+                </p>
+            </div>
+         </div>
+     </div>
+     <!-- button arrows -->
+      <!-- u can use button#prev -->
+      <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+
+      <!-- thumbnail -->
+       <div class="thumbnail">
+        <!-- u can use like .item*4 so it can create all four at once and this is depending on the how much item you places -->
+         <!-- we also putting active on it so we can highlight it -->
+        <div class="item active">
+            <img src="image/192824.png" >
+            <div class="content">
+                IKan
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/mansion.png" >
+            <div class="content">
+                MAKANAN
+         </div>
+         </div>
+        <div class="item">
+            <img src="image/heven.jpg" >
+            <div class="content">
+                MAKANAN
+         </div>
+        </div>
+        <div class="item">
+            <img src="image/sunflower.png" >
+            <div class="content">
+                MAKANAN
+        </div>
+        </div>
+    </div>
+
+    
+    
+    
+    
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
